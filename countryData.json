@@ -1,0 +1,818 @@
+{
+    "Albania": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Andorra": {
+        "bestSeason": "Winter (December-March) or Summer (June-August)",
+        "recommendedDays": "3-5 days"
+    },
+    "Austria": {
+        "bestSeason": "Summer (June-August) or Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Belarus": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Belgium": {
+        "bestSeason": "Spring (April-June)",
+        "recommendedDays": "3-5 days"
+    },
+    "Bosnia and Herzegovina": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Bulgaria": {
+        "bestSeason": "Spring and Summer (May-September)",
+        "recommendedDays": "7-10 days"
+    },
+    "Croatia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Cyprus": {
+        "bestSeason": "Spring and Fall (April-May, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Czech Republic": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Denmark": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "3-5 days"
+    },
+    "Estonia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Finland": {
+        "bestSeason": "Summer (June-August) or Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "France": {
+        "bestSeason": "Spring (April-June)",
+        "recommendedDays": "7-10 days"
+    },
+    "Germany": {
+        "bestSeason": "Spring and Fall (May-June, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Greece": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Hungary": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Iceland": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Ireland": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Italy": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Kosovo": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "3-5 days"
+    },
+    "Latvia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Liechtenstein": {
+        "bestSeason": "Summer (June-August) or Winter (December-February)",
+        "recommendedDays": "3-5 days"
+    },
+    "Lithuania": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Luxembourg": {
+        "bestSeason": "Spring (April-June)",
+        "recommendedDays": "3-5 days"
+    },
+    "Malta": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Moldova": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "3-5 days"
+    },
+    "Monaco": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "2-3 days"
+    },
+    "Montenegro": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Netherlands": {
+        "bestSeason": "Spring (April-May)",
+        "recommendedDays": "5-7 days"
+    },
+    "North Macedonia": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Norway": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Poland": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Portugal": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Romania": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Russia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "10-14 days"
+    },
+    "San Marino": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "2-3 days"
+    },
+    "Serbia": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Slovakia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Slovenia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Spain": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Sweden": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Switzerland": {
+        "bestSeason": "Summer (June-August) or Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Turkey": {
+        "bestSeason": "Spring and Fall (April-June, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Ukraine": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "United Kingdom": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Vatican City": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "1-2 days"
+    },
+    "Afghanistan": {
+        "bestSeason": "Spring and Fall (April-May, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Armenia": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Azerbaijan": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Bahrain": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "3-5 days"
+    },
+    "Bangladesh": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Bhutan": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Brunei": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "3-5 days"
+    },
+    "Cambodia": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "China": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "10-14 days"
+    },
+    "Georgia": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "India": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "10-14 days"
+    },
+    "Indonesia": {
+        "bestSeason": "Summer (May-September)",
+        "recommendedDays": "7-10 days"
+    },
+    "Iran": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Iraq": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Israel": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Japan": {
+        "bestSeason": "Spring (March-May)",
+        "recommendedDays": "10-14 days"
+    },
+    "Jordan": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Kazakhstan": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Kuwait": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "3-5 days"
+    },
+    "Kyrgyzstan": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Laos": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Lebanon": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Malaysia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Maldives": {
+        "bestSeason": "Winter (December-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Mongolia": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Myanmar": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Nepal": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "North Korea": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Oman": {
+        "bestSeason": "Winter (November-March)",
+        "recommendedDays": "5-7 days"
+    },
+    "Pakistan": {
+        "bestSeason": "Spring and Fall (April-June, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Palestine": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Philippines": {
+        "bestSeason": "Winter (November-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Qatar": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "3-5 days"
+    },
+    "Saudi Arabia": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Singapore": {
+        "bestSeason": "Anytime",
+        "recommendedDays": "3-5 days"
+    },
+    "South Korea": {
+        "bestSeason": "Spring and Fall (April-June, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Sri Lanka": {
+        "bestSeason": "Winter (December-March) for West and South, Summer (May-September) for East",
+        "recommendedDays": "7-10 days"
+    },
+    "Syria": {
+        "bestSeason": "Spring and Fall (April-May, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Tajikistan": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "7-10 days"
+    },
+    "Thailand": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Timor-Leste": {
+        "bestSeason": "Dry Season (May-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Turkmenistan": {
+        "bestSeason": "Spring and Fall (April-May, September-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "United Arab Emirates": {
+        "bestSeason": "Winter (November-March)",
+        "recommendedDays": "5-7 days"
+    },
+    "Uzbekistan": {
+        "bestSeason": "Spring and Fall (April-May, September-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Vietnam": {
+        "bestSeason": "Spring (March-April) and Fall (September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Yemen": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Algeria": {
+        "bestSeason": "Spring (March-May)",
+        "recommendedDays": "7-10 days"
+    },
+    "Angola": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Benin": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Botswana": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Burkina Faso": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Burundi": {
+        "bestSeason": "Dry Season (June-August, December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Cabo Verde": {
+        "bestSeason": "Winter (November-June)",
+        "recommendedDays": "5-7 days"
+    },
+    "Cameroon": {
+        "bestSeason": "Dry Season (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Central African Rep.": {
+        "bestSeason": "Dry Season (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Chad": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Comoros": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "5-7 days"
+    },
+    "Djibouti": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Egypt": {
+        "bestSeason": "Winter (October-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Equatorial Guinea": {
+        "bestSeason": "Dry Season (December-February, June-August)",
+        "recommendedDays": "5-7 days"
+    },
+    "Eswatini": {
+        "bestSeason": "Dry Season (May-September)",
+        "recommendedDays": "5-7 days"
+    },
+    "Ethiopia": {
+        "bestSeason": "Dry Season (October-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Gabon": {
+        "bestSeason": "Dry Season (June-September)",
+        "recommendedDays": "5-7 days"
+    },
+    "Gambia": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Ghana": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Guinea": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Guinea-Bissau": {
+        "bestSeason": "Dry Season (November-May)",
+        "recommendedDays": "5-7 days"
+    },
+    "Ivory Coast": {
+        "bestSeason": "Winter (November-March)",
+        "recommendedDays": "5-7 days"
+    },
+    "Kenya": {
+        "bestSeason": "Dry Season (June-October, January-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Lesotho": {
+        "bestSeason": "Summer (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Liberia": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Libya": {
+        "bestSeason": "Winter (November-March)",
+        "recommendedDays": "5-7 days"
+    },
+    "Madagascar": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Malawi": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Mali": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Mauritania": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Mauritius": {
+        "bestSeason": "Winter (May-December)",
+        "recommendedDays": "5-7 days"
+    },
+    "Morocco": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "7-10 days"
+    },
+    "Mozambique": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Namibia": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Niger": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Nigeria": {
+        "bestSeason": "Dry Season (November-March)",
+        "recommendedDays": "5-7 days"
+    },
+    "Rwanda": {
+        "bestSeason": "Dry Season (June-September, December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Sao Tome and Principe": {
+        "bestSeason": "Dry Season (June-September)",
+        "recommendedDays": "5-7 days"
+    },
+    "Senegal": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Seychelles": {
+        "bestSeason": "Dry Season (May-September)",
+        "recommendedDays": "5-7 days"
+    },
+    "Sierra Leone": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Somalia": {
+        "bestSeason": "Winter (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "South Africa": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "10-14 days"
+    },
+    "S. Sudan": {
+        "bestSeason": "Dry Season (December-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Sudan": {
+        "bestSeason": "Winter (November-February)",
+        "recommendedDays": "5-7 days"
+    },
+    "Tanzania": {
+        "bestSeason": "Dry Season (June-October, January-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Togo": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Tunisia": {
+        "bestSeason": "Spring and Fall (March-May, September-November)",
+        "recommendedDays": "5-7 days"
+    },
+    "Uganda": {
+        "bestSeason": "Dry Season (June-September, December-February)",
+        "recommendedDays": "7-10 days"
+    },
+    "Zambia": {
+        "bestSeason": "Dry Season (May-October)",
+        "recommendedDays": "7-10 days"
+    },
+    "Antigua and Barbuda": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Argentina": {
+        "bestSeason": "November-March",
+        "recommendedDays": "10-14 days"
+    },
+    "Aruba": {
+        "bestSeason": "Year-round",
+        "recommendedDays": "5-7 days"
+    },
+    "Bahamas": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Barbados": {
+        "bestSeason": "December-April",
+        "recommendedDays": "7-10 days"
+    },
+    "Belize": {
+        "bestSeason": "Dry Season (December-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Bolivia": {
+        "bestSeason": "May-October",
+        "recommendedDays": "10-14 days"
+    },
+    "Brazil": {
+        "bestSeason": "May-October",
+        "recommendedDays": "10-14 days"
+    },
+    "Chile": {
+        "bestSeason": "September-April",
+        "recommendedDays": "10-14 days"
+    },
+    "Colombia": {
+        "bestSeason": "December-March",
+        "recommendedDays": "10-14 days"
+    },
+    "Costa Rica": {
+        "bestSeason": "Dry Season (December-April)",
+        "recommendedDays": "10-14 days"
+    },
+    "Cuba": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Dominica": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Dominican Republic": {
+        "bestSeason": "Winter (December-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Ecuador": {
+        "bestSeason": "June-September",
+        "recommendedDays": "7-10 days"
+    },
+    "El Salvador": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "French Guiana": {
+        "bestSeason": "December-July",
+        "recommendedDays": "5-7 days"
+    },
+    "Grenada": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Guatemala": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Guyana": {
+        "bestSeason": "September-December",
+        "recommendedDays": "7-10 days"
+    },
+    "Haiti": {
+        "bestSeason": "Winter (December-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Honduras": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Jamaica": {
+        "bestSeason": "Winter (December-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Mexico": {
+        "bestSeason": "Winter (December-April)",
+        "recommendedDays": "7-14 days"
+    },
+    "Nicaragua": {
+        "bestSeason": "Dry Season (November-April)",
+        "recommendedDays": "7-10 days"
+    },
+    "Panama": {
+        "bestSeason": "Dry Season (December-April)",
+        "recommendedDays": "5-7 days"
+    },
+    "Paraguay": {
+        "bestSeason": "April-September",
+        "recommendedDays": "5-7 days"
+    },
+    "Peru": {
+        "bestSeason": "May-September",
+        "recommendedDays": "10-14 days"
+    },
+    "Saint Kitts and Nevis": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Saint Lucia": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Saint Vincent and the Grenadines": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Suriname": {
+        "bestSeason": "February-September",
+        "recommendedDays": "7-10 days"
+    },
+    "Trinidad and Tobago": {
+        "bestSeason": "December-April",
+        "recommendedDays": "7-10 days"
+    },
+    "United States of America": {
+        "bestSeason": "Fall (September-November)",
+        "recommendedDays": "14-21 days"
+    },
+    "Uruguay": {
+        "bestSeason": "December-March",
+        "recommendedDays": "7-10 days"
+    },
+    "Venezuela": {
+        "bestSeason": "December-April",
+        "recommendedDays": "7-10 days"
+    },
+    "Canada": {
+        "bestSeason": "Summer (June-August)",
+        "recommendedDays": "10-14 days"
+    },
+    "Australia": {
+        "bestSeason": "September-November, March-May",
+        "recommendedDays": "10-14 days"
+    },
+    "Fiji": {
+        "bestSeason": "May-October",
+        "recommendedDays": "7-10 days"
+    },
+    "Kiribati": {
+        "bestSeason": "April-October",
+        "recommendedDays": "5-7 days"
+    },
+    "Marshall Islands": {
+        "bestSeason": "December-March",
+        "recommendedDays": "5-7 days"
+    },
+    "Micronesia": {
+        "bestSeason": "December-April",
+        "recommendedDays": "7-10 days"
+    },
+    "Nauru": {
+        "bestSeason": "April-October",
+        "recommendedDays": "5-7 days"
+    },
+    "New Zealand": {
+        "bestSeason": "December-February",
+        "recommendedDays": "10-14 days"
+    },
+    "Palau": {
+        "bestSeason": "November-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Papua New Guinea": {
+        "bestSeason": "May-October",
+        "recommendedDays": "10-14 days"
+    },
+    "Samoa": {
+        "bestSeason": "May-October",
+        "recommendedDays": "5-7 days"
+    },
+    "Solomon Islands": {
+        "bestSeason": "May-October",
+        "recommendedDays": "7-10 days"
+    },
+    "Tonga": {
+        "bestSeason": "May-October",
+        "recommendedDays": "5-7 days"
+    },
+    "Tuvalu": {
+        "bestSeason": "May-October",
+        "recommendedDays": "5-7 days"
+    },
+    "Vanuatu": {
+        "bestSeason": "April-October",
+        "recommendedDays": "7-10 days"
+    },
+    "Greenland": {
+        "bestSeason": "June-August",
+        "recommendedDays": "7-14 days"
+    },
+    "American Samoa": {
+        "bestSeason": "May-October",
+        "recommendedDays": "5-7 days"
+    },
+    "Guam": {
+        "bestSeason": "November-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Northern Mariana Islands": {
+        "bestSeason": "November-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Puerto Rico": {
+        "bestSeason": "December-April",
+        "recommendedDays": "7-10 days"
+    },
+    "U.S. Virgin Islands": {
+        "bestSeason": "December-April",
+        "recommendedDays": "5-7 days"
+    },
+    "Antarctica": {
+        "bestSeason": "November-March",
+        "recommendedDays": "7-14 days"
+    },
+    "Congo": {
+        "bestSeason": "May-August",
+        "recommendedDays": "7-10 days"
+    },
+    "Dem. Rep. Congo": {
+        "bestSeason": "June-September",
+        "recommendedDays": "10-14 days"
+    },
+    "Zimbabwe": {
+        "bestSeason": "May-October",
+        "recommendedDays": "7-10 days"
+    }
+}

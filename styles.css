@@ -1,0 +1,436 @@
+@import url('https://vercel.com/font/geist-sans');
+@import url('https://vercel.com/font/geist-mono');
+
+:root {
+    /* Dark theme (default) */
+    --golden: #FFD700;
+    --golden-light: #FFE44D;
+    --golden-dark: #E6B800;
+    --accent: var(--golden);
+    --accent-light: var(--golden-light);
+    --accent-dark: var(--golden-dark);
+    --bg-dark: #0D0D0D;
+    --bg-card: #151515;
+    --bg-ocean: #111111;
+    --land-fill: #1C1C1C;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8F9BA8;
+    --border-color: #2D2D2D;
+    --hover-bg: #1C1C1C;
+    --font-geist: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-geist-mono: 'Geist Mono', monospace;
+}
+
+:root[data-theme="light"] {
+    --black: #000000;
+    --black-light: #2C2C2C;
+    --black-dark: #1A1A1A;
+    --accent: var(--black);
+    --accent-light: var(--black-light);
+    --accent-dark: var(--black-dark);
+    
+    /* Uber-style map colors */
+    --bg-dark: #FFFFFF;
+    --bg-card: #FFFFFF;
+    --bg-ocean: #E2E8F0;  /* Neutral gray-blue for ocean */
+    --land-fill: #F8FAFC;  /* Light neutral for land */
+    --text-primary: #1A1A1A;
+    --text-secondary: #475569;
+    --border-color: #E2E8F0;
+    --hover-bg: #F1F5F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-geist);
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+h1 {
+    font-family: var(--font-geist-mono);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    letter-spacing: -0.5px;
+}
+
+h1 .material-icons-round {
+    color: var(--accent);
+}
+
+.subtitle {
+    font-family: var(--font-geist);
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.map-container {
+    position: relative;
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+:root[data-theme="light"] .map-container {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="light"] .map-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    border-color: var(--accent);
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.country {
+    fill: var(--land-fill);
+    stroke: #3D3D3D;
+    stroke-width: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.country:hover {
+    fill: var(--accent);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+#map {
+    background-color: var(--bg-ocean);
+}
+
+#info-box {
+    position: absolute;
+    background: var(--bg-card);
+    padding: 1.25rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    transition: all 0.15s ease-out;
+    border: 1px solid var(--border-color);
+    width: 320px;
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    opacity: 1;
+    transform-origin: top left;
+}
+
+#info-box.hidden {
+    opacity: 0;
+    transform: translateY(5px);
+    visibility: hidden;
+}
+
+#info-box h2 {
+    font-family: var(--font-geist-mono);
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#info-box p {
+    margin: 0.75rem 0;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+#info-box .material-icons-round {
+    color: var(--accent);
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+/* New styles for info box content */
+.info-item {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 0.75rem;
+    align-items: start;
+    padding: 0.5rem 0;
+}
+
+.info-item .material-icons-round {
+    color: var(--accent);
+    font-size: 1.1rem;
+    margin-top: 2px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    font-family: var(--font-geist);
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.info-value {
+    font-family: var(--font-geist);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+    background: var(--hover-bg);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(30, 58, 138, 0.1);
+}
+
+.stat-card h3 {
+    font-family: var(--font-geist-mono);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-card h3 .material-icons-round {
+    color: var(--accent);
+    flex-shrink: 0;
+}
+
+.stat-card p {
+    font-family: var(--font-geist);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    #map {
+        height: 400px;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    #info-box {
+        width: 240px;
+        max-width: 240px;
+        padding: 1rem;
+    }
+}
+
+/* Add theme switcher styles */
+.theme-switch {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.theme-switch:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.theme-switch .material-icons-round {
+    color: var(--accent);
+    font-size: 1.25rem;
+}
+
+/* Animation for icon switch */
+.theme-switch .material-icons-round {
+    transition: all 0.3s ease;
+}
+
+.theme-switch:hover .material-icons-round {
+    transform: rotate(360deg);
+}
+
+/* Update hover effects for light mode */
+:root[data-theme="light"] .map-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    border-color: var(--accent);
+}
+
+:root[data-theme="light"] .stat-card:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="light"] #info-box {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="light"] .country:hover {
+    fill: #1A1A1A;
+    filter: brightness(1) !important;
+}
+
+:root[data-theme="light"] .theme-switch {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="light"] .theme-switch:hover {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Add these styles */
+.zoom-controls {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1000;
+}
+
+.zoom-button {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.zoom-button:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.zoom-button .material-icons-round {
+    color: var(--accent);
+    font-size: 20px;
+}
+
+/* Subtle shadow for cards in light mode */
+:root[data-theme="light"] .map-container {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="light"] .stat-card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+/* Refined borders for light mode */
+:root[data-theme="light"] .country {
+    stroke: #CBD5E1;
+    stroke-width: 0.5px;
+    transition: all 0.2s ease;
+}
+
+:root[data-theme="light"] .country:hover {
+    fill: #0F172A;
+    cursor: pointer;
+}
+
+/* Crisp shadows */
+:root[data-theme="light"] .map-container {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="light"] .stat-card {
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Info box refinements for light mode */
+:root[data-theme="light"] #info-box {
+    background: #FFFFFF;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
