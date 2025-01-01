@@ -3,12 +3,12 @@
 
 :root {
     /* Dark theme (default) */
-    --golden: #FFD700;
-    --golden-light: #FFE44D;
-    --golden-dark: #E6B800;
-    --accent: var(--golden);
-    --accent-light: var(--golden-light);
-    --accent-dark: var(--golden-dark);
+    --purple: #8B5CF6;          /* Softer purple base */
+    --purple-light: #A78BFA;    /* Subtle light purple */
+    --purple-dark: #7C3AED;     /* Deeper but still gentle */
+    --accent: var(--purple);
+    --accent-light: var(--purple-light);
+    --accent-dark: var(--purple-dark);
     --bg-dark: #0D0D0D;
     --bg-card: #151515;
     --bg-ocean: #111111;
@@ -112,7 +112,7 @@ h1 .material-icons-round {
 
 .country {
     fill: var(--land-fill);
-    stroke: #3D3D3D;
+    stroke: var(--border-color);
     stroke-width: 0.5px;
     transition: all 0.3s ease;
 }
@@ -433,4 +433,53 @@ h1 .material-icons-round {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
                 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.month-filter {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.month-button {
+    font-family: var(--font-geist);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.month-button:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.month-button.active {
+    background: var(--accent);
+    color: var(--bg-card);
+    border-color: var(--accent);
+}
+
+/* Update country styles for highlighting */
+.country {
+    fill: var(--land-fill);
+    stroke: var(--border-color);
+    stroke-width: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.country.highlighted {
+    fill: var(--accent);
+    opacity: 0.5;
+}
+
+
+/* Add hover state for highlighted countries */
+.country.highlighted:hover {
+    fill: var(--accent);
+    opacity: 1;
 }

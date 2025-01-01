@@ -1,5 +1,6 @@
 let svg, g, path;
 let countryData = {};
+let currentMonth = null;
 
 // Load country data first
 async function loadCountryData() {
@@ -155,8 +156,89 @@ function redrawMap() {
     }
 }
 
+function initMonthFilter() {
+    const buttons = document.querySelectorAll('.month-button');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const month = button.dataset.month;
+            
+            // Toggle active state
+            if (currentMonth === month) {
+                currentMonth = null;
+                button.classList.remove('active');
+                resetHighlights();
+            } else {
+                buttons.forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+                currentMonth = month;
+                highlightCountriesForMonth(month);
+            }
+        });
+    });
+}
+
+function highlightCountriesForMonth(month) {
+    const countries = d3.selectAll('.country');
+    
+    countries.each(function(d) {
+        const country = d3.select(this);
+        const countryName = d.properties.name;
+        const countryInfo = countryData[countryName];
+        
+        if (countryInfo && isRecommendedInMonth(countryInfo.bestSeason, month)) {
+            country.classed('highlighted', true)
+                   .classed('dimmed', false);
+        } else {
+            country.classed('highlighted', false)
+                   .classed('dimmed', true);
+        }
+    });
+}
+
+function resetHighlights() {
+    d3.selectAll('.country')
+        .classed('highlighted', false)
+        .classed('dimmed', false);
+}
+
+function isRecommendedInMonth(bestSeason, month) {
+    // Convert the bestSeason string into an array of months
+    const seasonMonths = parseSeasonMonths(bestSeason);
+    return seasonMonths.includes(month);
+}
+
+function parseSeasonMonths(bestSeason) {
+    // Example: "Summer (June-August)" -> ["June", "July", "August"]
+    const monthRangeMatch = bestSeason.match(/\((.*?)\)/);
+    if (!monthRangeMatch) return [];
+    
+    const monthRange = monthRangeMatch[1];
+    const [startMonth, endMonth] = monthRange.split('-');
+    
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+    
+    const startIdx = months.findIndex(m => m.toLowerCase().startsWith(startMonth.toLowerCase()));
+    const endIdx = months.findIndex(m => m.toLowerCase().startsWith(endMonth.toLowerCase()));
+    
+    if (startIdx === -1 || endIdx === -1) return [];
+    
+    const result = [];
+    let currentIdx = startIdx;
+    while (currentIdx !== endIdx) {
+        result.push(months[currentIdx]);
+        currentIdx = (currentIdx + 1) % 12;
+    }
+    result.push(months[endIdx]);
+    
+    return result;
+}
+
 // Update the DOMContentLoaded listener
 document.addEventListener('DOMContentLoaded', () => {
     initMap().catch(console.error);
     initThemeSwitch();
+    initMonthFilter();
 }); 
