@@ -77,6 +77,12 @@ h1 .material-icons-round {
     color: var(--accent);
 }
 
+.logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
 .subtitle {
     font-family: var(--font-geist);
     color: var(--text-secondary);
